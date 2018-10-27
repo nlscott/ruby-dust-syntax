@@ -2,4 +2,4 @@
 
 A dark purple atom theme for ruby.
 
-![A screenshot of your theme](https://github.com/nlscott/ruby-dust-syntax/blob/master/ruby_dust.png)
+![A screenshot of your theme](https://raw.githubusercontent.com/nlscott/ruby-dust-syntax/master/ruby_dust.png)
