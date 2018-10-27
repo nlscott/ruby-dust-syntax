@@ -1,0 +1,17 @@
+{
+  "name": "ruby-dust-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A dark syntax theme for ruby",
+  "keywords": [
+    "syntax",
+    "theme",
+    "ruby",
+    "purple"
+  ],
+  "repository": "https://github.com/nlscott/ruby-dust-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

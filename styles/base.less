@@ -1,0 +1,221 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .syntax-marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .syntax-marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
+  background-color: rgba(101, 123, 131, 0.33);
+}
+
+.syntax--variable.syntax--parameter.syntax--function {
+  color: #e2e8f5;
+}
+
+.syntax--comment, .syntax--punctuation.syntax--definition.syntax--comment {
+  color: #605d6e;
+}
+
+.syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--variable, .syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--parameters, .syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--array {
+  color: #3dbfff;
+}
+
+.syntax--none {
+  color: #93a1a1;
+}
+
+.syntax--keyword.syntax--operator {
+  color: #ff3598;
+}
+
+.syntax--keyword {
+  color: #e223ff;
+}
+
+.syntax--variable {
+  color: #71E3FA;
+}
+
+.syntax--entity.syntax--name.syntax--function, .syntax--meta.syntax--require, .syntax--support.syntax--function.syntax--any-method {
+  color: #FA8BFE;
+}
+
+.syntax--support.syntax--class, .syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #D91448;
+}
+
+.syntax--meta.syntax--class {
+  color: #fdf6e3;
+}
+
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #ff3598;
+}
+
+.syntax--storage {
+  color: #6c71c4;
+}
+
+.syntax--support.syntax--function {
+  color: #F09743;
+}
+
+.syntax--string, .syntax--constant.syntax--other.syntax--symbol, .syntax--entity.syntax--other.syntax--inherited-class {
+  color: #3dbfff;
+}
+
+.syntax--constant.syntax--numeric {
+  color: #ff3598;
+}
+
+.syntax--none {
+  color: #cb4b16;
+}
+
+.syntax--none {
+  color: #cb4b16;
+}
+
+.syntax--constant {
+  color: #cb4b16;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  color: #dc322f;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #cb4b16;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id, .syntax--punctuation.syntax--definition.syntax--entity {
+  color: #268bd2;
+}
+
+.syntax--meta.syntax--selector {
+  color: #6c71c4;
+}
+
+.syntax--none {
+  color: #cb4b16;
+}
+
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading, .syntax--entity.syntax--name.syntax--section {
+  color: #268bd2;
+}
+
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #cb4b16;
+}
+
+.syntax--markup.syntax--bold, .syntax--punctuation.syntax--definition.syntax--bold {
+  font-weight: bold;
+  color: #b58900;
+}
+
+.syntax--markup.syntax--italic, .syntax--punctuation.syntax--definition.syntax--italic {
+  font-style: italic;
+  color: #6c71c4;
+}
+
+.syntax--markup.syntax--raw.syntax--inline {
+  color: #859900;
+}
+
+.syntax--string.syntax--other.syntax--link {
+  color: #dc322f;
+}
+
+.syntax--meta.syntax--link {
+  color: #cb4b16;
+}
+
+.syntax--markup.syntax--list {
+  color: #dc322f;
+}
+
+.syntax--markup.syntax--quote {
+  color: #cb4b16;
+}
+
+.syntax--meta.syntax--separator {
+  color: #93a1a1;
+  background-color: #586e75;
+}
+
+.syntax--markup.syntax--inserted {
+  color: #859900;
+}
+
+.syntax--markup.syntax--deleted {
+  color: #dc322f;
+}
+
+.syntax--markup.syntax--changed {
+  color: #6c71c4;
+}
+
+.syntax--constant.syntax--other.syntax--color {
+  color: #2aa198;
+}
+
+.syntax--string.syntax--regexp {
+  color: #ff7e71;
+}
+
+.syntax--constant.syntax--character.syntax--escape {
+  color: #2aa198;
+}
+
+.syntax--punctuation.syntax--section.syntax--embedded, .syntax--variable.syntax--interpolation {
+  color: #e223ff;
+}
+
+.syntax--invalid.syntax--illegal {
+  color: #002b36;
+  background-color: #dc322f;
+}
